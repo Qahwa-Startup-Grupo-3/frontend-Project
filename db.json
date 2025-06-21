@@ -1,0 +1,59 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "tipo": "productor",
+      "email": "productor@correo.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "tipo": "distribuidor",
+      "email": "distribuidor@correo.com",
+      "password": "abcdef"
+    },
+    {
+      "id": "a848",
+      "nombre": "jhordi",
+      "email": "jhordict20@gmail.com",
+      "lugar": "cutervo",
+      "password": "12345",
+      "tipo": "productor"
+    },
+    {
+      "id": "c15d",
+      "nombre": "Steve",
+      "email": "steveabedul@gmail.com",
+      "password": "12345",
+      "tipo": "distribuidor"
+    },
+    {
+      "id": "9c88",
+      "nombre": "Alex",
+      "email": "alex@gmail.com",
+      "lugar": "Jaen",
+      "password": "12345",
+      "tipo": "productor"
+    }
+  ],
+  "producciones": [
+    {
+      "id": "a48f",
+      "usuarioId": "a848",
+      "nombre": "Ccccc",
+      "descripcion": "Ubicación: cutervo, Variedad: cafee, Etapa: Floración, Fecha: 2025-05-29"
+    }
+  ],
+  "inventario": [
+    {
+      "id": "0104",
+      "usuarioId": null,
+      "producto": "Café Tostado",
+      "fecha": "2025-05-30",
+      "estado": "Buen Estado",
+      "cantidad": 5
+    }
+  ],
+  "publicaciones": [],
+  "pedidos": []
+}
