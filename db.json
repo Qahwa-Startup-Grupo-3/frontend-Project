@@ -1,0 +1,146 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "tipo": "productor",
+      "email": "productor@correo.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "tipo": "distribuidor",
+      "email": "distribuidor@correo.com",
+      "password": "abcdef"
+    },
+    {
+      "id": "a848",
+      "nombre": "jhordi",
+      "email": "jhordict20@gmail.com",
+      "lugar": "cutervo",
+      "password": "12345",
+      "tipo": "productor"
+    },
+    {
+      "id": "c15d",
+      "nombre": "Steve",
+      "email": "steveabedul@gmail.com",
+      "password": "12345",
+      "tipo": "distribuidor"
+    },
+    {
+      "id": "9c88",
+      "nombre": "Alex",
+      "email": "alex@gmail.com",
+      "lugar": "Jaen",
+      "password": "12345",
+      "tipo": "productor"
+    },
+    {
+      "id": "2136",
+      "nombre": "",
+      "email": "",
+      "lugar": "",
+      "password": "",
+      "tipo": "productor"
+    },
+    {
+      "id": "dc2b",
+      "nombre": "",
+      "email": "",
+      "lugar": "",
+      "password": "",
+      "tipo": "productor"
+    },
+    {
+      "id": "883f",
+      "nombre": "",
+      "email": "",
+      "lugar": "",
+      "password": "",
+      "tipo": "productor"
+    },
+    {
+      "id": "01c3",
+      "nombre": "",
+      "email": "",
+      "password": "",
+      "tipo": "distribuidor"
+    },
+    {
+      "id": "dc23",
+      "nombre": "",
+      "email": "",
+      "password": "",
+      "tipo": "distribuidor"
+    },
+    {
+      "id": "11b3",
+      "nombre": "",
+      "email": "",
+      "lugar": "",
+      "password": "",
+      "tipo": "productor"
+    }
+  ],
+  "producciones": [
+    {
+      "id": "a48f",
+      "usuarioId": "a848",
+      "nombre": "Ccccc",
+      "descripcion": "Ubicación: cutervo, Variedad: cafee, Etapa: Floración, Fecha: 2025-05-29"
+    }
+  ],
+  "inventario": [
+    {
+      "id": "0104",
+      "usuarioId": null,
+      "producto": "Café Tostado",
+      "fecha": "2025-05-30",
+      "estado": "Buen Estado",
+      "cantidad": 5
+    }
+  ],
+  "publicaciones": [
+    {
+      "id": "cf11",
+      "usuarioId": "1",
+      "titulo": "Publicación de prueba",
+      "datos": "Publicación de prueba",
+      "privacidad": "publica",
+      "fecha": "2025-07-08",
+      "imagen": null
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "fecha": "2025-07-01",
+      "cliente": "Café Perú SAC",
+      "costo": 120.5
+    },
+    {
+      "id": 2,
+      "fecha": "2025-07-03",
+      "cliente": "Exportadora Andina",
+      "costo": 210
+    },
+    {
+      "id": 3,
+      "fecha": "2025-07-04",
+      "cliente": "EcoCafé Distribuciones",
+      "costo": 145.75
+    },
+    {
+      "id": 4,
+      "fecha": "2025-07-05",
+      "cliente": "Amazonas Coffee",
+      "costo": 99.9
+    },
+    {
+      "id": 5,
+      "fecha": "2025-07-06",
+      "cliente": "Q'Warmi Orgánico",
+      "costo": 180
+    }
+  ]
+}
